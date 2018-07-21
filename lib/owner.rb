@@ -1,7 +1,6 @@
 class Owner
 
   @@all = []
-
   attr_reader :species
   attr_accessor :name, :pets
 
@@ -52,6 +51,7 @@ class Owner
        dog.mood = "happy"
      end
    end
+
 
    def play_with_cats
      pets[:cats].each do |cat|
