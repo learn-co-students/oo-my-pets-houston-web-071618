@@ -1,3 +1,6 @@
-class Dog
-  # code goes here
+require_relative '_pet'
+require 'pry'
+
+class Dog < Pet
+
 end
